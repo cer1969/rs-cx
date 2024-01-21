@@ -4,6 +4,7 @@ use crate::category::Category;
 
 //----------------------------------------------------------------------------------------
 
+#[derive(Debug)]
 pub struct Conductor<'a> {
 	pub category: &'a Category,     // Category instance
 	pub diameter: f64,          // Diameter [mm]

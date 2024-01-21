@@ -1,5 +1,9 @@
 // Cristian Echeverría
 
+
+pub type F64Result = Result<f64, String>;
+
+#[derive(Debug)]
 pub enum FormulaKind {
     CLASSIC,                    // Formula original con saltos. Debería eliminarla??
     IEEE                        // Formula IEEE
